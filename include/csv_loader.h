@@ -17,6 +17,4 @@
  * @param warnings Output warnings (non-fatal).
  * @return true if file opened and at least attempted to parse; false if file open fails.
  */
-bool loadCoursesFromCSV(const std::string& fileName,
-                        std::unordered_map<std::string, Course>& outIndex,
-                        std::vector<std::string>& warnings);
+bool loadCoursesFromCSV(const std::string& fileName, std::unordered_map<std::string, Course>& outIndex, std::vector<std::string>& warnings);

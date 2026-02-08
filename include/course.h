@@ -6,7 +6,7 @@
  * @brief Represents a single course record loaded from the advising CSV.
  */
 struct Course {
-    std::string courseId;               // e.g., "CS200"
-    std::string title;                  // e.g., "Data Structures"
+    std::string courseId;               // "CS200"
+    std::string title;                  // "Data Structures"
     std::vector<std::string> prereq;    // optional prerequisites (course IDs)
 };

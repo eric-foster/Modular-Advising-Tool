@@ -11,7 +11,4 @@
  * @param iterationsPerId Number of searches per id.
  * @param label Label for printing (e.g., "BST" or "AVL").
  */
-void runSearchBenchmark(const ICourseTree& tree,
-                        const std::vector<std::string>& ids,
-                        size_t iterationsPerId,
-                        const std::string& label);
+void runSearchBenchmark(const ICourseTree& tree, const std::vector<std::string>& ids, size_t iterationsPerId, const std::string& label);
