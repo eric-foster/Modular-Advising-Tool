@@ -12,7 +12,7 @@ This enhanced version includes **two interchangeable tree implementations** - a 
 
 ## Project Structure
 ```
-cs300_enhanced_modular/
+Course_Plan_CLI_Enhanced/
   include/
     avl.h
     bst.h
@@ -34,7 +34,7 @@ cs300_enhanced_modular/
 ```
 
 ## Build
-From the `cs300_enhanced_modular` directory:
+From the `Course_Plan_CLI_Enhanced` directory:
 
 ```bash
 g++ -std=c++17 -O2 -Iinclude src/*.cpp -o course_planner
